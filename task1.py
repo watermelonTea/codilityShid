@@ -1,6 +1,6 @@
 #In this task you are trying to find the character with the highest amount of occurences.
 
-```Python
+Python
 def solution(S):
     occurrences = [0] * 256
 
@@ -16,4 +16,3 @@ def solution(S):
             best_res = occurrences[i]
 
     return best_char
-```
